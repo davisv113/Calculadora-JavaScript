@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to right, #091b6a, #2f1a6e, #471970, #5b1671, #6e1371);
+}
+
+h1{
+    color: #fff;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.fundo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.calculadora{
+    padding: 25px;
+    box-shadow: 6px 5px 10px 0px #000;
+    border-radius: 10px;
+}
+
+#resultado{
+    background-color: #fff;
+    height: 40px;
+    padding: 10px 5px;
+    text-align: right;
+    border-radius: 5px;
+}
+
+button{
+    padding: 20px;
+    border-radius: 5px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: bold;
+}
